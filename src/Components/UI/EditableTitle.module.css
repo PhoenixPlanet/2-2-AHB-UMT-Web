@@ -1,0 +1,25 @@
+.EditableTitle {
+    all:unset;
+    /* font-family: 'GmarketSansMedium'; */
+    width: 120px;
+    height: 42px;
+    font-size: 30px;
+    line-height: 36px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0px;
+    margin-top: 10px;
+    /* color: rgba(var(--a), 1); */
+    /* border: 2px solid rgba(var(--a), 1); */
+    /* border-radius: 5px; */
+    color: #41403E;
+    border: 2px solid #41403E;
+    border-radius: 225px 35px 185px 35px/35px 185px 35px 225px;
+    transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+    /* background-color: rgba(var(--a), 1); */
+    background-color: #41403E;
+    color: white;
+}
