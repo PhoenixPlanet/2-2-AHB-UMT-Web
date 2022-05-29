@@ -19,4 +19,4 @@ class EditableTextArea extends React.Component {
     }
 }
 
-export default EditableTitle;
+export default EditableTextArea;
