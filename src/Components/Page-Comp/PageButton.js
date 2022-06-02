@@ -1,11 +1,17 @@
 import React from "react";
+import Button from "../UI/Button";
 import Styles from "./PageButton.module.css"
 
 function PageButton(props) {
     return (
-        <div className={Styles.Button}>
-            {props.children}
-        </div>
+        <Button className={Styles.PageButton}>
+            <div>
+                Hello
+            </div>
+            <div>
+                119
+            </div>
+        </Button>
     );
 }
 

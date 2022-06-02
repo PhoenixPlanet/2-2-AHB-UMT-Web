@@ -1,4 +1,5 @@
 import './App.css';
+import PageButton from './Components/Page-Comp/PageButton';
 import Button from './Components/UI/Button';
 import HeaderText from './Components/UI/HeaderText';
 
@@ -12,6 +13,9 @@ function App() {
         <HeaderText>
           hello
         </HeaderText>
+        <PageButton>
+          
+        </PageButton>
       </header>
     </div>
   );
