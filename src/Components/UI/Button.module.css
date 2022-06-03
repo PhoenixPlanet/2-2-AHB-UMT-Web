@@ -1,21 +1,35 @@
 .Button {
     all:unset;
-    /* font-family: 'GmarketSansMedium'; */
+    
+	/* layout settings */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
     width: 120px;
     height: 42px;
+	
+    padding: 0px;
+    margin: 10px;
+	
+	/* font settings */
     font-size: 30px;
     line-height: 36px;
-    cursor: pointer;
-    text-align: center;
-    padding: 0px;
-    margin-top: 10px;
-    /* color: rgba(var(--a), 1); */
-    /* border: 2px solid rgba(var(--a), 1); */
-    /* border-radius: 5px; */
-    color: #41403E;
+	/* font-family: 'GmarketSansMedium'; */
+	
+	/* design */
+	color: #41403E;
     border: 2px solid #41403E;
     border-radius: 35px 35px;
+	/* color: rgba(var(--a), 1); */
+    /* border: 2px solid rgba(var(--a), 1); */
+    /* border-radius: 5px; */
+	    
+	/* animation */
     transition: background-color 0.3s ease, border-radius 0.3s ease;
+	
+	/* extra */
+    cursor: pointer;
 }
 
 .Button:hover {
