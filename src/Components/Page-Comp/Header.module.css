@@ -1,13 +1,16 @@
 .Header {
 	/* layout settings */
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+
+	width: 100vw;
+	height: fit-content;
 	
 	/* font settings */
-	font-size: 2rem;
 	
 	/* design */
-	background-color: rgba(var(--header-color), 0);
+	/* background-color: rgba(var(--primary-color), 1); */
 	    
 	/* animation */
 	

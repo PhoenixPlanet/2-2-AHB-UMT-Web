@@ -1,13 +1,17 @@
 import React from "react";
-import HeaderText from "../UI/HeaderText";
+import HeaderTitleBar from "../UI/HeaderTitleBar";
+import NavigationBar from "../UI/NavigationBar";
 import Styles from "./Header.module.css"
 
 function Header(props) {
 	return (
 		<header className={Styles.Header}>
-			<HeaderText>
-				hello
-			</HeaderText>
+			<HeaderTitleBar>
+				2-2 AHB UMT
+			</HeaderTitleBar>
+			<NavigationBar>
+
+			</NavigationBar>
 		</header>
 	);
 }
