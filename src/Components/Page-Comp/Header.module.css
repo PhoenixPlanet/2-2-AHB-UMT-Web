@@ -1,0 +1,15 @@
+.Header {
+	/* layout settings */
+	display: flex;
+	flex-flow: row wrap;
+	
+	/* font settings */
+	font-size: 2rem;
+	
+	/* design */
+	background-color: rgba(var(--header-color), 0);
+	    
+	/* animation */
+	
+	/* extra */
+}
