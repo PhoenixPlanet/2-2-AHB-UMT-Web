@@ -16,4 +16,10 @@
 	--background-gradient-color2: 24, 90, 157;
 	
     --text-color: 255, 255, 255;  */
+
+	/* night beige */
+	--primary-color: 54, 48, 98;
+	--primary-light-color: 233, 213, 202;
+	--secondary-color: 77, 76, 125;
+	--secondary-color2: 130, 115, 151;
 }
