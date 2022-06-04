@@ -1,7 +1,8 @@
 .HeaderText {
-    color: rgba(var(--global-text-color), 1);
+    color: rgba(var(--text-color), 1);
+	margin: 10px;
 }
 
 .HeaderTextDiv {
-    padding: auto;
+
 }
