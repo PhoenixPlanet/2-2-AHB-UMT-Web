@@ -1,0 +1,36 @@
+.HeaderTitleBar {
+    /* layout settings */
+	margin: 0px 10px;
+
+	/* font settings */
+	font-size: 20px;
+
+	/* design */
+	color: white;
+    background-color: rgba(var(--primary-color), 1);
+	    
+	/* animation */
+	
+	/* extra */
+}
+
+.HeaderTitleBarDiv {
+    /* layout settings */
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+	height: 60px;
+	
+	/* font settings */
+	font-size: 20px;
+
+	/* design */
+	color: white;
+    background-color: rgba(var(--primary-color), 1);
+	    
+	/* animation */
+	
+	/* extra */
+}
