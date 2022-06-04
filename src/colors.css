@@ -1,4 +1,19 @@
 :root {
-    --global-text-color: 255, 116, 115;
-    --global-text-color2: 255, 201, 82;
+	/* pastel theme */
+	/*
+	--header-color: 194, 222, 209;
+	--background-color: 236, 229, 199;
+	--background-dark-color: 205, 194, 174;
+	--text-color: 53, 66, 89; 
+	
+	--text-color1: 255, 116, 115;
+    --text-color2: 255, 201, 82;
+	*/
+	
+	/* gradient enless river theme */
+	/* --header-color: 255, 255, 255;
+	--background-gradient-color1: 67, 206, 162;
+	--background-gradient-color2: 24, 90, 157;
+	
+    --text-color: 255, 255, 255;  */
 }
