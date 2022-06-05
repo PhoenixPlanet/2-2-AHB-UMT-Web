@@ -2,6 +2,7 @@ import './App.css';
 import PageButton from './Components/Page-Comp/PageButton';
 import Button from './Components/UI/Button';
 import Header from './Components/Page-Comp/Header';
+import Card from './Components/UI/Card';
 
 function App() {
 	return (
@@ -11,6 +12,8 @@ function App() {
 			<Button>
 				hello
 			</Button>
+			
+			<Card></Card>
 			
 			<PageButton>
 			</PageButton>
