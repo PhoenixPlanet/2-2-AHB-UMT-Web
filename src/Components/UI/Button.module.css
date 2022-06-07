@@ -6,21 +6,21 @@
 	justify-content: center;
 	align-items: center;
 	
-    width: 120px;
-    height: 42px;
+    width: 6rem;
+    height: 2rem;
 	
     padding: 0px;
     margin: 10px;
 	
 	/* font settings */
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 1.3rem;
+    /* line-height: 1.2rem; */
 	/* font-family: 'GmarketSansMedium'; */
 	
 	/* design */
 	color: #41403E;
     border: 2px solid #41403E;
-    border-radius: 35px 35px;
+    border-radius: 0.7rem;
 	/* color: rgba(var(--a), 1); */
     /* border: 2px solid rgba(var(--a), 1); */
     /* border-radius: 5px; */
