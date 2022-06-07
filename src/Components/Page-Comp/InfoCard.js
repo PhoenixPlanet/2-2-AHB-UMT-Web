@@ -5,7 +5,7 @@ import Card from "../UI/Card";
 
 function InfoCard(props) {
     return (
-        <Card>
+        <Card className={Styles.InfoCard}>
 			
 		</Card>
     );

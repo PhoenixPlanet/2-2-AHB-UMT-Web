@@ -1,5 +1,7 @@
 .InfoCard {
     /* layout settings */
+	display: grid;
+	grid-template-rows: 2fr 3fr;
 	
 	/* font settings */
 	
