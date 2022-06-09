@@ -1,7 +1,8 @@
 .InfoCard {
     /* layout settings */
 	display: grid;
-	grid-template-rows: 2fr 3fr;
+	grid-template-rows: 150px 1.5fr 3fr 1fr;
+	overflow: hidden;
 	
 	/* font settings */
 	
@@ -10,4 +11,10 @@
 	/* animation */
 	
 	/* extra */
+}
+
+.Image {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }

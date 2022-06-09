@@ -2,7 +2,7 @@ import './App.css';
 import PageButton from './Components/Page-Comp/PageButton';
 import Button from './Components/UI/Button';
 import Header from './Components/Page-Comp/Header';
-import Card from './Components/Page-Comp/InfoCard';
+import InfoCard from './Components/Page-Comp/InfoCard';
 
 function App() {
 	return (
@@ -13,7 +13,8 @@ function App() {
 				hello
 			</Button>
 			
-			<Card></Card>
+			<InfoCard>
+			</InfoCard>
 			
 			<PageButton>
 			</PageButton>
