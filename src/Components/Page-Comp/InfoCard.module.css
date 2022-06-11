@@ -1,20 +1,59 @@
-.InfoCard {
-    /* layout settings */
-	display: grid;
-	grid-template-rows: 150px 1.5fr 3fr 1fr;
-	overflow: hidden;
-	
-	/* font settings */
-	
-	/* design */
-	    
-	/* animation */
-	
-	/* extra */
-}
-
 .Image {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
+}
+
+.Title {
+	/* layout settings */
+    display: flex;
+	flex-flow: row wrap;
+
+	align-items: center;
+
+	padding: 10px;
+
+    /* font settings */
+	font-size: 1.2rem;
+	font-family: "BMDOHYEON";
+
+    /* design */
+        
+    /* animation */
+
+    /* extra */
+}
+
+.Info {
+	/* layout settings */
+	padding: 0px 10px;
+
+    /* font settings */
+	font-size: 0.8rem;
+	font-family: "EarlyFontDiary";
+	line-height: 1.1rem;
+	color: var(--font-dark-color);
+
+    /* design */
+        
+    /* animation */
+
+    /* extra */
+}
+
+.Actions {
+	/* layout settings */
+    display: flex;
+	flex-flow: row wrap;
+
+	align-items: center;
+	justify-content: flex-end;
+
+    /* font settings */
+
+    /* design */
+        
+    /* animation */
+
+    /* extra */
 }
