@@ -4,18 +4,13 @@ import styled, { css } from "styled-components"
 
 import Card from "../UI/Card";
 import Button from "../UI/Button"
+import Gap from "../UI/Gap";
 
 const InfoCardLayout = css`
 	/* layout settings */
 	display: grid;
 	grid-template-rows: 150px minmax(50px, auto) minmax(150px, auto) minmax(40px, auto);
 	overflow: hidden;
-`
-
-const Gap = styled.br`
-	display: block;
-	margin-top: 5px;
-	content: " ";
 `
 
 function InfoCard(props) {
