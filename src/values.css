@@ -1,0 +1,5 @@
+:root {
+	--header-size: 80px;
+	--header-logo-size: 60px;
+	--header-logo-padding: calc((var(--header-size) - var(--header-logo-size)) / 2);
+}

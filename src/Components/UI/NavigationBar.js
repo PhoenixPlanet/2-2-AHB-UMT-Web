@@ -7,15 +7,16 @@ const StyledNavigationBar = styled.div`
 	flex-flow: row wrap;
 	justify-content: center;
 
-    height: 40px;
+    height: 60px;
 	
 	/* font settings */
 	font-size: 1.5rem;
 	
 	/* design */
-	background-color: rgba(var(--secondary-color), 1);
+	/* background-color: rgba(var(--secondary-color), 1); */
 
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 1);
+	border-bottom: 1px solid rgba(0, 0, 0, 1);
 	    
 	/* animation */
 	
