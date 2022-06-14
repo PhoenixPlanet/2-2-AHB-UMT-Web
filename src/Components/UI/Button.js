@@ -9,10 +9,10 @@ const StyledButton = styled.div`
 	justify-content: center;
 	align-items: center;
 	
-    width: 6rem;
-    height: 2rem;
+    width: ${ props => props.style.width || "auto" };
+    min-height: cal(2rem - 10px);
 	
-    padding: 0px;
+    padding: 5px;
     margin: 10px;
 	
 	/* font settings */
@@ -29,14 +29,13 @@ const StyledButton = styled.div`
     /* border-radius: 5px; */
 	    
 	/* animation */
-    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    transition: background-color 0.3s ease;
 	
 	/* extra */
     cursor: pointer;
 
     &:hover {
         background-color: ${ props => props.style.color || "#41403E" };
-        border-radius: 35px 225px;
         color: white;
     }
 `
