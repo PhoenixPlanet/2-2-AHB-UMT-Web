@@ -1,11 +1,12 @@
 import React from "react";
-import Styles from "./Main.module.css"
+import styled from "styled-components";
+
+import InfoCardPanel from '../Page-Comp/InfoCardPanel';
 
 function Main(props) {
     return (
-        <div className={Styles.Main}>
-
-        </div>
+        <InfoCardPanel>
+		</InfoCardPanel>
     );
 }
 

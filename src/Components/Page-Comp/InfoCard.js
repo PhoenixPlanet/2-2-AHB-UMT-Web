@@ -6,10 +6,12 @@ import Card from "../UI/Card";
 import Button from "../UI/Button"
 import Gap from "../UI/Gap";
 
+import { IoCall } from "react-icons/io5"
+
 const InfoCardLayout = css`
 	/* layout settings */
 	display: grid;
-	grid-template-rows: 150px minmax(50px, auto) minmax(150px, auto) minmax(40px, auto);
+	grid-template-rows: 150px minmax(50px, auto) minmax(130px, auto) minmax(40px, auto);
 	overflow: hidden;
 `
 
@@ -17,21 +19,13 @@ function InfoCard(props) {
     return (
         <Card cardLayout={InfoCardLayout}>
 			<img className={Styles.Image} src="image/k16umt.jpg" alt="K16 UMT"/>
-			<div className={Styles.Title}>2-2 UMT</div>
+			<div className={Styles.Title}>{props.title}</div>
 			<div className={Styles.Info}>
-				2-2 Unit Ministry team
-				<Gap/>
-				<b>Office Call(DSN)</b> 
-				<br/>
-				722-8508
-				<Gap/>
-				<b>Office Call(Comm)</b>
-				<br/>
-				0503-322-8508
+				{props.content}
 			</div>
 			<div className={Styles.Actions}>
 				<Button>
-					Call
+					<IoCall></IoCall>
 				</Button>
 			</div>
 		</Card>
