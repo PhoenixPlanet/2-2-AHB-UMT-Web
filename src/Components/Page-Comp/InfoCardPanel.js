@@ -4,6 +4,9 @@ import styled from "styled-components"
 import InfoCard from '../Page-Comp/InfoCard'
 import Gap from '../UI/Gap'
 import ContentWrapper from '../UI/ContentWrapper'
+import Button from '../UI/Button'
+
+import { IoCall, IoMail } from "react-icons/io5"
 
 import Contacts from '../../data/Contacts'
 
@@ -36,7 +39,12 @@ function InfoCardPanel(props) {
 			</ContentWrapper>
 		);
 		
-		return <InfoCard key={index} title={title} content={content} image={contact.image}></InfoCard>
+		const actions = [
+			contact.mail && <Button key="mail" onClickEvent={() => window.location.href = `mailto:${contact.mail}`}> <IoMail/> </Button>,
+			contact.tel && <Button key="tel" onClickEvent={() => window.location.href = `tel:${contact.tel}`}> <IoCall/> </Button>
+		]
+		
+		return <InfoCard key={index} title={title} content={content} image={contact.image} actions={actions}></InfoCard>
 	});
 	
     return (
