@@ -1,18 +1,38 @@
 import React from "react";
 import HeaderTitleBar from "../UI/HeaderTitleBar";
 import NavigationBar from "../UI/NavigationBar";
-import Styles from "./Header.module.css"
+import styled from "styled-components";
+
+const StyledHeader = styled.header`
+	/* layout settings */
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: center;
+
+	width: 100vw;
+	height: fit-content;
+	
+	/* font settings */
+	
+	/* design */
+	/* background-color: rgba(var(--primary-color), 1); */
+	    
+	/* animation */
+	
+	/* extra */
+`
 
 function Header(props) {
 	return (
-		<header className={Styles.Header}>
+		<StyledHeader>
 			<HeaderTitleBar>
 				2-2 AHB UMT
 			</HeaderTitleBar>
 			<NavigationBar>
 
 			</NavigationBar>
-		</header>
+		</StyledHeader>
 	);
 }
 
