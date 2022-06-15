@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
 	justify-content: flex-start;
 	align-items: center;
 
-	width: 100vw;
+	width: 100%;
 	height: fit-content;
 	
 	/* font settings */
