@@ -14,12 +14,17 @@ const StyledInfoCardPanelDiv = styled.div`
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
+	align-items: flex-start;
 `
 
 function InfoCardPanel(props) {
 	const infoCards = Contacts.map((contact, index) => {
-		const title = contact.name;
-		
+		const title = (
+			<ContentWrapper>
+				{contact.name}
+			</ContentWrapper>
+		);
+
 		const details = contact.detail.map((detail, index) => {
 			return (
 				<ContentWrapper key={index}>

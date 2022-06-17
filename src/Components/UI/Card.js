@@ -13,6 +13,7 @@ const StyledCard = styled.div`
     ${(props) => props.cardLayout};
 
     /* font settings */
+    word-wrap: break-word;
 
     /* design */
     background-color: white;

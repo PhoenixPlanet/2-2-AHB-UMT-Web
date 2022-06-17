@@ -1,10 +1,11 @@
 [
 	{
-		"name": "2-2 AHB UMT",
+		"name": "2-2 Assault Helicopter Battalion \nUnit Ministry Team",
 		"about": "2-2 AHB Unit Ministry Team",
 		"detail": [
 			{"tag": "Office Call (DSN)", "content": "722-8508"},
-			{"tag": "Office Call (Comm)", "content": "0503-322-8508"}
+			{"tag": "Office Call (Comm)", "content": "0503-322-8508"},
+			{"tag": "About", "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
 		],
 		"tel": "0503-322-8508",
 		"mail": "ytw0113@yahoo.com"
