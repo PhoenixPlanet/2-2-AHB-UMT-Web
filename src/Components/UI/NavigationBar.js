@@ -31,7 +31,7 @@ const StyledNavigationBarBorder = styled.div`
 	margin: 0 60px 0 60px;
 	
 	/* design */
-    border-top: 1px solid rgba(0, 0, 0, 1);
+	border-top: 1px solid rgba(0, 0, 0, 1);
 	border-bottom: 1px solid rgba(0, 0, 0, 1);
 ` 
 

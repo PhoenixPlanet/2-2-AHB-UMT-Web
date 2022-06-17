@@ -40,8 +40,12 @@ function InfoCardPanel(props) {
 		);
 		
 		const actions = [
-			contact.mail && <Button key="mail" onClickEvent={() => window.location.href = `mailto:${contact.mail}`}> <IoMail/> </Button>,
-			contact.tel && <Button key="tel" onClickEvent={() => window.location.href = `tel:${contact.tel}`}> <IoCall/> </Button>
+			contact.mail && <Button key="mail" onClickEvent={() => window.location.href = `mailto:${contact.mail}`}> 
+				<IoMail/> 
+			</Button>,
+			contact.tel && <Button key="tel" onClickEvent={() => window.location.href = `tel:${contact.tel}`}>
+				<IoCall/>
+			</Button>
 		]
 		
 		return <InfoCard key={index} title={title} content={content} image={contact.image} actions={actions}></InfoCard>
